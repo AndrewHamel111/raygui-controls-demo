@@ -1,0 +1,1 @@
+gcc -o raygui_controls_demo.exe main.c debug/debug_menu.c C:\raylib\raylib\src\raylib.rc.data -s -static -Os -std=c99 -Wall -IC:\raylib\raylib\src -Iexternal -DPLATFORM_DESKTOP -lraylib -lopengl32 -lgdi32 -lwinmm
